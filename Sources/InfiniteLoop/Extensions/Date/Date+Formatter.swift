@@ -32,4 +32,5 @@ public enum DateFormattes: String {
     case full = "yyyy-MM-dd HH:mm:ss"
     case short = "dd/MM/yy"
     case withoutTime = "yyyy-MM-dd"
+    case onlyTime = "HH:mm"
 }
