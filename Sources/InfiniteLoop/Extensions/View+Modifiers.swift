@@ -10,7 +10,7 @@ import SwiftUI
 public extension View {
     
     @ViewBuilder
-    func padding(_ edges: Edge.Set = .all, _ length: Sizes? = nil) -> some View {
+    func appPadding(_ edges: Edge.Set = .all, _ length: Sizes? = nil) -> some View {
         padding(edges, CGFloat(length?.rawValue ?? .zero))
     }
 }
