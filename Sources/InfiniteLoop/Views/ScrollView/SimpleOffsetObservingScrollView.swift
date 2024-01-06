@@ -68,7 +68,6 @@ struct SimplePositionObservingView<Content: View>: View {
                 if position.x.truncatingRemainder(dividingBy: 5) == 0 {
                     let impactHeavy = UIImpactFeedbackGenerator(style: .soft)
                     impactHeavy.impactOccurred()
-                    print(position)
                 }
                 self.position = position
             }
